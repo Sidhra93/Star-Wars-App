@@ -61,8 +61,7 @@ export default class App extends React.Component{
   render(){
     return (
       <div className="container-fluid">
-        <h1>Star Wars</h1>
-        <div className="row">
+        <div>
           {this.checkDetails()}
         </div>
         <div className="row">
@@ -70,7 +69,7 @@ export default class App extends React.Component{
             (
                 <div
                   key={index}
-                  className="col-4">
+                  className="col-md-6 col-lg-4">
                   <Character
                     name={character.name}
                     index={index}

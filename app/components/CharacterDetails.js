@@ -3,7 +3,7 @@ import React from 'react'
 export default function CharacterDetails(props){
   return (
     <div className="row">
-      <div className="col">
+      <div className="details">
         <h5>{props.name}</h5>
         <p>Gender: {props.gender}</p>
         <p>Height: {props.height}</p>

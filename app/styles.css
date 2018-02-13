@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+/*header {
+  height: 100px;
+}*/
+
+header img {
+  height: 200px;
+}
+
+body {
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.my-card {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.details {
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 60px;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
