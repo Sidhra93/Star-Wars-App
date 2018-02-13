@@ -9,7 +9,6 @@ export default function CharacterDetails(props){
         <p>Height: {props.height}</p>
         <p>Birth Year: {props.birthYear}</p>
         <p>Hair Color: {props.hairColor}</p>
-
       </div>
     </div>
   )
