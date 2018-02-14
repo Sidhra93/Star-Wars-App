@@ -8,7 +8,7 @@ export default function Character(props){
         <div className="card-body">
           <h5 className="card-title">{props.name}</h5>
           <button
-            className="btn btn-primary"
+            className="btn btn-dark"
             onClick={props.detailsHandler}
             id={props.index}>
             Details</button>
