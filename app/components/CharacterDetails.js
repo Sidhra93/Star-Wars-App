@@ -4,7 +4,7 @@ export default function CharacterDetails(props){
   return (
     <div className="row">
       <div className="details">
-        <h5>{props.name}</h5>
+        <h4>{props.name}</h4>
         <p>Gender: {props.gender}</p>
         <p>Height: {props.height}</p>
         <p>Birth Year: {props.birthYear}</p>
